@@ -1,0 +1,221 @@
+
+
+/* CSS used here will be applied after bootstrap.css */
+/*----------------------Added css----------------------------*/
+
+/*----------------------Loader CSS--------------------------*/
+.sidebar-left-content{
+    background-color:;
+}
+.navbar-logo-wrapper{
+    border-right: 1px solid white;
+}
+.onload-check{
+    /*overflow: hidden;*/
+}
+.copyright{
+    background-color:#98999D;
+}
+.chute-center{
+    background-color: white;
+}
+.pv10{
+    background-color: #f1ecec;
+}
+.sidebar-header{
+    background-color: #98999D; 
+}
+#content_wrapper{
+    background-color:white;
+}
+
+.content{
+    background-color:white;
+}
+.ajax_loader {
+  margin-left: 400px;  
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/*---------- End Of Loader CSS----------*/
+
+.modal-header-success {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color:  #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-warning {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #f0ad4e;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-danger {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #d9534f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-info {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-primary {
+    color:#fff;
+    padding:9px 15px;
+    border-bottom:1px solid #eee;
+    background-color: #428bca;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* custom button */
+
+.btn-custom {
+    color: #fff;
+    background-color: #5a5386;
+}
+
+.btn-custom.active, .btn-custom:active, .btn-custom:focus, .btn-custom:hover, .open > .dropdown-toggle.btn-custom {
+    color: #fff;
+    background-color: #a8b924;
+    border-color: rgba(0, 0, 0, .05)
+}
+
+.btn-custom.disabled, .btn-custom.disabled.active, .btn-custom.disabled:active, .btn-custom.disabled:focus, .btn-custom.disabled:hover, .btn-custom[disabled], .btn-custom[disabled].active, .btn-custom[disabled]:active, .btn-custom[disabled]:focus, .btn-custom[disabled]:hover, fieldset[disabled] .btn-custom, fieldset[disabled] .btn-custom.active, fieldset[disabled] .btn-custom:active, fieldset[disabled] .btn-custom:focus, fieldset[disabled] .btn-custom:hover {
+    background-color: #c3d62d;
+    border-color: #c3d62d
+}
+
+.btn-custom .badge {
+    color: #c3d62d;
+    background-color: #fff
+}
+
+.btn-custom.light {
+    background-color: #cadb47
+}
+
+.btn-custom.dark, .btn-custom.light.active, .btn-custom.light:active, .btn-custom.light:focus, .btn-custom.light:hover, .open > .dropdown-toggle.btn-custom.light {
+    background-color: #aebf25
+}
+
+.btn-custom.dark.active, .btn-custom.dark:active, .btn-custom.dark:focus, .btn-custom.dark:hover, .open > .dropdown-toggle.btn-custom.dark {
+    background-color: #97a520
+}
+
+.top-buffer { margin-top:20px; }
+
+.small-help-block {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #c3c4cb;
+    font-size: 12px;
+}
+/*===========================added css====================================*/
+
+.payroll-table{
+    margin-top: 10px;
+}
+.show-header > p{
+    float: left;
+    margin: 11px 0px 0px 11px;
+}
+.show-header > h4 {
+    float:left;
+}
+.head-sep{
+    float: left;
+    margin-left: 10px;
+    color: #666666;
+    padding-top: 11px;
+}
+.show-header > ul {
+    list-style-type: none;
+    float: right;
+    display: -webkit-box;
+}
+.edit_li{
+    padding:0px 6px 0px 0px;
+}
+.show-header > ul {
+    margin-top: 5px;
+}
+.show-header > hr {
+    margin-top:14px;
+}
+.field_one > p {
+    width:17%;
+}
+.field_one > hr {
+    margin-top: 14px;
+}
+.field_two > p {
+    width: 17%;
+}
+.field_two > hr {
+    margin-top: 14px;
+}
+.margin-top {
+    margin-top: 10px;
+}
+.empList ul > li{
+    padding: 2px;
+}
+.empList  ul {
+    list-style: none;
+    display: -webkit-box;
+    /*float:right; */
+}
+.update_form_width{
+    width:25%;
+}
